@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    background-color: #C3E0E5;
+    align-items: center;
+}
+#header{
+    height: 100vh;
+    width: 250px;
+    padding-top: 18px;
+    background-color: #274472;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-image:url(Devendra\ choudhary.jpeg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.qualificationLinks{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+li{
+    margin-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.link:hover{
+    color: #41729F;
+    border-bottom: 2px solid #41729F;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    position: absolute;
+}
+.socialLinks{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;  
+}
+.info{
+    height: 400px;
+    width: 700px;
+    margin-left: 80px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5885AF;
+    color: white;
+}
+p{
+    font-size: 25px;
+}
